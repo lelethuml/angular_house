@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+  &:visited{
+    color: white;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
