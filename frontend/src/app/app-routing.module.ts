@@ -5,9 +5,10 @@ import { AboutComponent } from './components/about/about.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { CartComponent } from './components/cart/cart.component';
 import { ProductComponent } from './components/product/product.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 const routes: Routes = [
-  {path:"", component: HomeComponent},
+  {path:"", component: NavbarComponent},
   {path:"home", component: HomeComponent},
   {path:"about", component: AboutComponent},
   {path:"profile", component: ProfileComponent},
